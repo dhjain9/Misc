@@ -1,0 +1,105 @@
+C:\Users\dhanendra\ML\repo2\MLCoding>git push origin main
+To https://github.com/dhjain9/MLCoding.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/dhjain9/MLCoding.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\dhanendra\ML\repo2\MLCoding>git rebase main
+Current branch main is up to date.
+
+C:\Users\dhanendra\ML\repo2\MLCoding>git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 761 bytes | 33.00 KiB/s, done.
+From https://github.com/dhjain9/MLCoding
+   d5a38d6..68836bb  main       -> origin/main
+Merge made by the 'ort' strategy.
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\dhanendra\ML\repo2\MLCoding>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is A084-30C7
+
+ Directory of C:\Users\dhanendra\ML\repo2\MLCoding
+
+01/07/2024  07:43 AM    <DIR>          .
+01/07/2024  07:43 AM    <DIR>          ..
+12/19/2023  02:49 PM             1,882 Convolution_of_MNIST_data_with_filter_and_pooling_1.py
+12/19/2023  02:53 PM             2,813 Convolution_of_MNIST_data_with_filter_and_pooling_1_TestLog.txt
+12/26/2023  12:16 PM    <DIR>          data
+12/26/2023  12:24 PM             2,412 Image_convolution_model_with_happy_and_sad_images.py
+12/26/2023  12:26 PM             4,738 Image_convolution_model_with_happy_and_sad_images_Output.txt
+12/10/2023  06:11 AM             5,887 Image_recognition_fmnist_dataset_TestLogs.py
+12/10/2023  06:10 AM             3,359 Image_recognition_fmnist_dataset_via_3_layer_tf.py
+01/07/2024  07:34 AM    <DIR>          NLP
+12/05/2023  07:58 AM               708 Price_prediction_by_SGD_optimizer_single_node_NN.py
+12/05/2023  08:00 AM             1,810 Price_prediction_by_SGD_optimizer_single_node_NN_TestLogs.txt
+01/07/2024  07:43 AM               150 README.md
+12/03/2023  12:00 PM             1,061 Sigmoid_NN_1layer_1node.py
+12/03/2023  12:03 PM             1,489 Sigmoid_NN_1layer_1node_TestOutput.txt
+12/18/2023  09:18 AM    <DIR>          trainingdata
+12/04/2023  08:11 AM             1,389 WeatherPrediction.py
+12/04/2023  08:09 AM             7,003 WeatherPredictionOutput.txt
+12/04/2023  08:12 AM             6,862 WeatherPredictionOutput_dataSet_1000.txt
+              14 File(s)         41,563 bytes
+               5 Dir(s)  246,400,368,640 bytes free
+
+C:\Users\dhanendra\ML\repo2\MLCoding>cd ..
+
+C:\Users\dhanendra\ML\repo2>git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\dhanendra\ML\repo2>cd MLCoding
+
+C:\Users\dhanendra\ML\repo2\MLCoding>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\dhanendra\ML\repo2\MLCoding>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is A084-30C7
+
+ Directory of C:\Users\dhanendra\ML\repo2\MLCoding
+
+01/07/2024  07:43 AM    <DIR>          .
+01/07/2024  07:43 AM    <DIR>          ..
+12/19/2023  02:49 PM             1,882 Convolution_of_MNIST_data_with_filter_and_pooling_1.py
+12/19/2023  02:53 PM             2,813 Convolution_of_MNIST_data_with_filter_and_pooling_1_TestLog.txt
+12/26/2023  12:16 PM    <DIR>          data
+12/26/2023  12:24 PM             2,412 Image_convolution_model_with_happy_and_sad_images.py
+12/26/2023  12:26 PM             4,738 Image_convolution_model_with_happy_and_sad_images_Output.txt
+12/10/2023  06:11 AM             5,887 Image_recognition_fmnist_dataset_TestLogs.py
+12/10/2023  06:10 AM             3,359 Image_recognition_fmnist_dataset_via_3_layer_tf.py
+01/07/2024  07:34 AM    <DIR>          NLP
+12/05/2023  07:58 AM               708 Price_prediction_by_SGD_optimizer_single_node_NN.py
+12/05/2023  08:00 AM             1,810 Price_prediction_by_SGD_optimizer_single_node_NN_TestLogs.txt
+01/07/2024  07:43 AM               150 README.md
+12/03/2023  12:00 PM             1,061 Sigmoid_NN_1layer_1node.py
+12/03/2023  12:03 PM             1,489 Sigmoid_NN_1layer_1node_TestOutput.txt
+12/18/2023  09:18 AM    <DIR>          trainingdata
+12/04/2023  08:11 AM             1,389 WeatherPrediction.py
+12/04/2023  08:09 AM             7,003 WeatherPredictionOutput.txt
+12/04/2023  08:12 AM             6,862 WeatherPredictionOutput_dataSet_1000.txt
+              14 File(s)         41,563 bytes
+               5 Dir(s)  246,392,528,896 bytes free
+
+C:\Users\dhanendra\ML\repo2\MLCoding>git push origin main
+Enumerating objects: 82, done.
+Counting objects: 100% (81/81), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (78/78), done.
+Writing objects: 100% (78/78), 2.02 MiB | 1.58 MiB/s, done.
+Total 78 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/dhjain9/MLCoding.git
+   68836bb..a867389  main -> main
+
+C:\Users\dhanendra\ML\repo2\MLCoding>
